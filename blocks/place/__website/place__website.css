@@ -1,0 +1,24 @@
+.place__website {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin: 0;
+  gap: 12px;
+  padding: 0 16px;
+  min-width: 288px;
+  min-height: 46px;
+}
+
+@media (min-width : 768px) {
+  .place__website {
+    min-width: 352px;
+    padding: 0;
+  }
+}
+
+@media (min-width : 1024px) {
+  .place__website {
+    min-width: 456px;
+  }
+}

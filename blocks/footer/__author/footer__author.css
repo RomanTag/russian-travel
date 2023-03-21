@@ -1,0 +1,25 @@
+.footer__author {
+  margin: 0;
+  font-size: 14px;
+  line-height: 14px;
+  /* min-width: 186px; */
+  padding: 0;
+}
+
+@media (min-width : 768px) {
+  .footer__author {
+    padding: 4px 47px 0 0;
+  }
+}
+
+@media (min-width : 1024px) {
+  .footer__author {
+
+  }
+}
+
+@media (min-width : 1280px) {
+  .footer__author {
+    padding: 4px 28px 0 0;
+  }
+}

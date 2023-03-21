@@ -1,0 +1,27 @@
+.cover {
+  margin: 0;
+  padding-top: 66px;
+  font-family: 'Inter';
+  min-width: 320px;
+  min-height: 200px;
+}
+
+@media (min-width : 768px) {
+  .cover {
+    min-width: 768px;
+    padding-top: 90px;
+  }
+}
+
+@media (min-width : 1024px) {
+  .cover {
+    padding-top: 92px;
+    min-width: 1024px;
+  }
+}
+
+@media (min-width : 1280px) {
+  .cover {
+    padding: 92px 48px 0 48px;
+  }
+}

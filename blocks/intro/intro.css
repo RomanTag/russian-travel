@@ -1,0 +1,32 @@
+.intro {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: calc(100% - 16px * 2);
+  padding: 64px 16px 0 16px;
+}
+
+@media (min-width : 768px) {
+  .intro {
+    padding: 85px 24px 0 24px;
+    width: 720px;
+    min-height: 429px;
+  }
+}
+
+@media (min-width : 1024px) {
+  .intro {
+    padding-left: 48px;
+    /* width: calc(100% - 24px * 2); */
+    width: 690px;
+    max-height: 429px;
+  }
+}
+
+@media (min-width : 1280px) {
+  .intro {
+    padding: 89px 0 0 148px;
+    width: 690px;
+  }
+}

@@ -1,0 +1,29 @@
+.place {
+  padding: 0;
+  margin: 0;
+  min-width: 320px;
+  max-width: 720px;
+}
+
+@media (min-width : 768px) {
+  .place {
+    min-width: 720px;
+    max-width: 928px;
+    height: 581px;
+  }
+}
+
+@media (min-width : 1024px) {
+  .place {
+    min-width: 928px;
+    max-width: 984px;
+    height: 640px;
+  }
+}
+
+@media (min-width : 1280px) {
+  .place {
+    max-width: 984px;
+    height: 584px;
+  }
+}
