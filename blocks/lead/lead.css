@@ -8,14 +8,14 @@
   padding-top: 48px;
 }
 
-@media (min-width : 768px) {
+@media screen and (min-width: 768px) {
   .lead {
     min-width: 768px;
     min-height: 862px;
   }
 }
 
-@media (min-width : 1024px) {
+@media screen and (min-width: 1024px) {
   .lead {
     min-width: 928px;
     min-height: 962px;
@@ -24,7 +24,7 @@
   }
 }
 
-@media (min-width : 1280px) {
+@media screen and (min-width: 1280px) {
   .lead {
     /* min-width: 984px;
     min-height: 1005px; */

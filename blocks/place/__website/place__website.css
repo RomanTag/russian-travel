@@ -10,14 +10,14 @@
   min-height: 46px;
 }
 
-@media (min-width : 768px) {
+@media screen and (min-width: 768px) {
   .place__website {
     min-width: 352px;
     padding: 0;
   }
 }
 
-@media (min-width : 1024px) {
+@media screen and (min-width: 1024px) {
   .place__website {
     min-width: 456px;
   }

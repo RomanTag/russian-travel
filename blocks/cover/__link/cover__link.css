@@ -33,21 +33,21 @@
   opacity: 0.8;
 }
 
-@media (min-width : 768px) {
+@media screen and (min-width: 768px) {
   .cover__link {
     padding: 115px 104px 115px 104px;
     min-height: 480px;
   }
 }
 
-@media (min-width : 1024px) {
+@media screen and (min-width: 1024px) {
   .cover__link {
     padding: 195px 232px 195px 232px;
     min-height: 640px;
   }
 }
 
-@media (min-width : 1280px) {
+@media screen and (min-width: 1280px) {
   .cover__link {
     padding: 245px 232px 195px 232px;
     min-height: 740px;

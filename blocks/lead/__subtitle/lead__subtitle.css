@@ -13,7 +13,7 @@
   white-space: pre-line;
 }
 
-@media (min-width : 768px) {
+@media screen and (min-width: 768px) {
   .lead__subtitle {
     margin: 32px 0 0 0;
     font-size: 30px;
@@ -24,13 +24,13 @@
   }
 }
 
-@media (min-width : 1024px) {
+@media screen and (min-width: 1024px) {
   .lead__subtitle {
     width: calc(100% - (192px * 2));
   }
 }
 
-@media (min-width : 1280px) {
+@media screen and (min-width: 1280px) {
   .lead__subtitle {
     /* width: calc(100% - (320px * 2)); */
   }

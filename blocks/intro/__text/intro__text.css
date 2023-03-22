@@ -7,20 +7,18 @@
   line-height: 163%;
 }
 
-@media (min-width : 768px) {
+@media screen and (min-width: 768px) {
   .intro__text {
     max-width: 720px;
     max-height: 208px;
   }
 }
 
-@media (min-width : 1024px) {
-  .intro__text {
-
-  }
+@media screen and (min-width: 1024px) {
+  .intro__text {}
 }
 
-@media (min-width : 1280px) {
+@media screen and (min-width: 1280px) {
   .intro__text {
     max-width: 720px;
     line-height: 26px;

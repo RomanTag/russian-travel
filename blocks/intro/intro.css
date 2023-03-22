@@ -7,7 +7,7 @@
   padding: 64px 16px 0 16px;
 }
 
-@media (min-width : 768px) {
+@media screen and (min-width: 768px) {
   .intro {
     padding: 85px 24px 0 24px;
     width: 720px;
@@ -15,7 +15,7 @@
   }
 }
 
-@media (min-width : 1024px) {
+@media screen and (min-width: 1024px) {
   .intro {
     padding-left: 48px;
     /* width: calc(100% - 24px * 2); */
@@ -24,7 +24,7 @@
   }
 }
 
-@media (min-width : 1280px) {
+@media screen and (min-width: 1280px) {
   .intro {
     padding: 89px 0 0 148px;
     width: 690px;

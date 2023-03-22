@@ -7,7 +7,7 @@
   min-height: 3484px;
 }
 
-@media (min-width : 768px) {
+@media screen and (min-width: 768px) {
   .places {
     min-width: 720px;
     padding: 15px 24px 0 24px;
@@ -15,7 +15,7 @@
   }
 }
 
-@media (min-width : 1024px) {
+@media screen and (min-width: 1024px) {
   .places {
     min-width: 928px;
     padding: 42px 48px 0 48px;
@@ -23,11 +23,10 @@
   }
 }
 
-@media (min-width : 1280px) {
+@media screen and (min-width: 1280px) {
   .places {
     min-width: 984px;
     min-height: 3484px;
     padding: 22px 148px 0 148px;
-
   }
 }

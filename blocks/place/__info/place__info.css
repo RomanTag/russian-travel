@@ -13,19 +13,19 @@
   color: #FFFFFF;
 }
 
-@media (min-width : 768px) {
+@media screen and (min-width: 768px) {
   .place__info {
     padding: 0;
   }
 }
 
-@media (min-width : 1024px) {
+@media screen and (min-width: 1024px) {
   .place__info {
     font-size: 18px;
   }
 }
 
-@media (min-width : 1280px) {
+@media screen and (min-width: 1280px) {
   .place__info {
     line-height: 29px;
   }
