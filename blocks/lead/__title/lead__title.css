@@ -30,6 +30,6 @@
 
 @media (min-width : 1280px) {
   .lead__title {
-    padding: 0 132px 0 132px;
+    /* padding: 0 132px 0 132px; */
   }
 }
