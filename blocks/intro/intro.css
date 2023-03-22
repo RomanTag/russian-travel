@@ -3,9 +3,11 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: calc(100% - 16px * 2);
+  /* width: calc(100% - 16px * 2); */
   padding: 64px 16px 0 16px;
 }
+
+/* не понимаю как реализовать промежуточный этап от 1024 до 1280, так чтобы текст не "уезжал влево" */
 
 @media screen and (min-width: 768px) {
   .intro {
