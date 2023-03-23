@@ -6,7 +6,6 @@
   line-height: 109%;
   text-align: center;
   min-width: 288px;
-
   white-space: pre-line;
 }
 
@@ -15,12 +14,4 @@
     font-size: 72px;
     line-height: 76px;
   }
-}
-
-@media screen and (min-width: 1024px) {
-  .cover__title {}
-}
-
-@media screen and (min-width: 1280px) {
-  .cover__title {}
 }
