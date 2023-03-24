@@ -1,23 +1,19 @@
 .footer__author {
-  margin: 0;
+  margin: auto 0 auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 14px;
   line-height: 14px;
-  /* min-width: 186px; */
   padding: 0;
 }
 
 @media screen and (min-width: 768px) {
   .footer__author {
-    padding: 4px 47px 0 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .footer__author {}
-}
-
-@media screen and (min-width: 1280px) {
-  .footer__author {
-    padding: 4px 28px 0 0;
-  }
-}
+/* поставил margin auto сверху и снизу, чтобы подпись была по цетру своего контейнера и выровнялась с навигацией */

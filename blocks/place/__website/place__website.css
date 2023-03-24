@@ -12,13 +12,11 @@
 
 @media screen and (min-width: 768px) {
   .place__website {
-    min-width: 352px;
     padding: 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .place__website {
-    min-width: 456px;
   }
 }

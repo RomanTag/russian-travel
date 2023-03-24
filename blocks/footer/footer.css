@@ -2,36 +2,33 @@
   margin: 0;
   font-family: 'Inter', Arial, sans-serif;
   padding: 64px 0 24px 16px;
-  width: 60%;
   display: flex;
-  /* flex-direction: column; */
-  flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: nowrap;
   align-items: start;
   justify-content: space-between;
-  gap: 40px;
+  gap: 48px;
 }
 
 @media screen and (min-width: 768px) {
   .footer {
-    gap: 69px;
-    width: 95%;
-    min-width: 720px;
-    /* height: 18px; */
+    gap: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: 88px 24px 24px 24px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .footer {
-    width: 90%;
     padding: 92px 48px 24px 48px;
-    /* min-width: 928px; */
   }
 }
 
 @media screen and (min-width: 1280px) {
   .footer {
-    width: 93%;
-    /* min-width: 1184px; */
+    margin: 0;
   }
 }
+
+/* убрал значения width, на сколько теперь если текста будет больше, то все держится относительно левого и правого края */

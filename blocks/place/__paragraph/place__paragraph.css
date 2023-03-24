@@ -1,7 +1,6 @@
 .place__paragraph {
   margin: 0;
   padding: 0;
-  min-width: 288px;
   max-width: 484px;
   /* hyphens: auto; */
 }
