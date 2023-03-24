@@ -9,7 +9,6 @@
   .place {
     min-width: 720px;
     max-width: 928px;
-    /* height: 581px; */
   }
 }
 
@@ -17,12 +16,5 @@
   .place {
     min-width: 928px;
     max-width: 984px;
-    /* height: 640px; */
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .place {
-    /* height: 584px; */
   }
 }

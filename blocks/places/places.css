@@ -1,6 +1,5 @@
 .places {
   display: flex;
-  /* justify-content: center; */
   font-family: 'Inter', Arial, sans-serif;
   min-width: 320px;
   margin: auto;

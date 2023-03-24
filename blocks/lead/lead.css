@@ -5,7 +5,6 @@
   align-items: center;
   font-family: 'Inter', Arial, sans-serif;
   min-width: 320px;
-  /* min-height: 406px; */
   padding-top: 48px;
 }
 
@@ -25,8 +24,6 @@
 
 @media screen and (min-width: 1280px) {
   .lead {
-    /* min-width: 984px;
-    min-height: 1005px; */
     width: calc(100% - 148px * 2);
     padding-top: 56px;
   }

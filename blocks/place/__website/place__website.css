@@ -7,16 +7,10 @@
   gap: 12px;
   padding: 0 16px;
   min-width: 288px;
-  /* min-height: 46px; */
 }
 
 @media screen and (min-width: 768px) {
   .place__website {
     padding: 0;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .place__website {
   }
 }
